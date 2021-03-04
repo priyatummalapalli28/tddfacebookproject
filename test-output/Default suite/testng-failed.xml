@@ -3,14 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="tests.FBLoginTestDataProvider">
+      <class name="tests.FBLoginTest">
         <methods>
-          <include name="loginTest" invocation-numbers="0"/>
+          <include name="loginTest"/>
           <include name="launchSite"/>
           <include name="closeSite"/>
-          <include name="openResults"/>
         </methods>
-      </class> <!-- tests.FBLoginTestDataProvider -->
+      </class> <!-- tests.FBLoginTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
